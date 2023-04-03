@@ -1,0 +1,457 @@
+<!DOCTYPE html><html lang="en"><head><link rel="stylesheet" type="text/css" href="/css/nerd.css"><link rel="stylesheet" type="text/css" href="/css/loadingcar.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper-marcus/lib/skills.min.css"><link rel="preload" as="style" type="text/css" href="/css/nerd.css"><link rel="preload" as="font" type="font/ttf" href="/fonts/font.woff2" crossorigin="anonymous"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"><script async="" data-pjax="" src="/js/custom.js"></script><script src="/js/random.js"></script><script async="" src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script><script async="" src="https://cdn.jsdelivr.net/npm/element-ui@2.15.6/lib/index.js"></script><script async="" data-pjax="" src="/js/linksbar.js"></script><script async="" src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/carousel-touch.min.js"></script><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Hexo</title><meta name="author" content="John Doe"><meta name="copyright" content="John Doe"><meta name="format-detection" content="telephone=no"><meta name="theme-color"><meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/page/4/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://ezgx.site/img/avatar.png">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://ezgx.site/img/avatar.png"><link rel="shortcut icon" href="https://ezgx.site/img/avatar.png"><link rel="canonical" href="http://example.com/page/4/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/pluginsSrc/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/pluginsSrc/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":300},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: '/pluginsSrc/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: '/pluginsSrc/flickr-justified-gallery/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Hexo',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-04-03 22:25:09'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"></head><body><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><div class="loading-img"></div><div class="loading-image-dot"></div></div></div><script async="async">var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+setTimeout(function(){preloader.endLoading();}, 3600);
+document.getElementById('loading-box').addEventListener('click',()=> {preloader.endLoading()})</script><link rel="stylesheet" href="/css/loading.css"/><script src="/pluginsSrc/pace-js/pace.min.js"></script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="menus_items"><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><span> 本站</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/"><i class="fa-fw fas fa-house-user"></i><span> 首页</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-box-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><span> 外站</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/goodsites/"><i class="fa-fw fas fa-star"></i><span> 站长推荐</span></a></li><li><a class="site-page child" href="/atom.xml"><i class="fa-fw fas fa-rss"></i><span> RSS</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><span> 找我</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言</span></a></li><li><a class="site-page child" href="/authorqq/"><i class="fa-fw fab fa-qq"></i><span> 博主QQ</span></a></li><li><a class="site-page child" href="/authorwechat/"><i class="fa-fw fab fa-weixin"></i><span> 博主微信</span></a></li><li><a class="site-page child" href="/qqgroup/"><i class="fa-fw fas fa-user-group"></i><span> QQ群</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://github.com/ezgx"><i class="fa-fw fab fa-github"></i><span> github</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><span> 我的</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/cc/"><i class="fa-fw fab fa-creative-commons"></i><span> 协议</span></a></li><li><a class="site-page child" href="/2023/dimension"><i class="fa-fw fas fa-wand-magic-sparkles"></i><span> 主题</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://home.ezgx.site"><i class="fa-fw fas fa-house-user"></i><span> 主页</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://img02.anzhiy.cn/adminuploads/1/2023/01/30/63d7422b64891.jpg')"><nav id="nav"><div id="toggle-menu"><a class="site-page"><i class="fas fa-grip-vertical"></i></a></div><span id="blog_name"><a id="site-name" href="/"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img1.tianli0.top/%E9%A6%96%E9%A1%B5.png" width="50" height="50"/><div class="title">Hexo</div><i class="fa-solid fa-house"></i></a></span><div class="mask-name-container"><center id="name-container"><a id="page-name" onclick="btf.scrollToDest(0,500)"></a></center><div class="nav-button" id="nav-totop"><a class="totopbtn"><i class="fas fa-arrow-up"></i><span id="percent" onclick="btf.scrollToDest(0,500)">0</span></a></div></div><div id="menus"><div class="nav-button" id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="nav-button console-button"><a class="link" onclick="btf.scrollToDest(0,500)"><i class="fas fa-angles-up"></i></a></div><div class="nav-button console-button"><a class="link" onclick="heo.showConsole()"><i class="fas fa-gear"></i></a></div><div class="menus_items"><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><span> 本站</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/"><i class="fa-fw fas fa-house-user"></i><span> 首页</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-box-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><span> 外站</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/goodsites/"><i class="fa-fw fas fa-star"></i><span> 站长推荐</span></a></li><li><a class="site-page child" href="/atom.xml"><i class="fa-fw fas fa-rss"></i><span> RSS</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><span> 找我</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言</span></a></li><li><a class="site-page child" href="/authorqq/"><i class="fa-fw fab fa-qq"></i><span> 博主QQ</span></a></li><li><a class="site-page child" href="/authorwechat/"><i class="fa-fw fab fa-weixin"></i><span> 博主微信</span></a></li><li><a class="site-page child" href="/qqgroup/"><i class="fa-fw fas fa-user-group"></i><span> QQ群</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://github.com/ezgx"><i class="fa-fw fab fa-github"></i><span> github</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><span> 我的</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/cc/"><i class="fa-fw fab fa-creative-commons"></i><span> 协议</span></a></li><li><a class="site-page child" href="/2023/dimension"><i class="fa-fw fas fa-wand-magic-sparkles"></i><span> 主题</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://home.ezgx.site"><i class="fa-fw fas fa-house-user"></i><span> 主页</span></a></li></ul></div></div></div></nav><div id="site-info"><h1 id="site-title">Hexo</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-computer-mouse fa-fade scroll-down-effects"></i></div></header><div id="console"><div class="close-btn" onclick="heo.hideConsole()"><i class="fas fa-circle-xmark"></i></div><div class="console-webinfo"><div class="console-webinfo-card"><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line fa-bounce"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name"><i class="fas fa-folder-open fa-beat"></i><div class="text">文章总数</div></div><div class="item-count">42</div></div><div class="webinfo-item"><div class="item-name"><i class="fas fa-clock fa-shake"></i><div class="text">建站天数</div></div><div class="item-count" id="runtimeshow" data-publishDate="2022-08-12T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name"><i class="fas fa-pen-to-square fa-beat"></i><div class="text">全站字数</div></div><div class="item-count">43.8k</div></div><div class="webinfo-item"><div class="item-name"><i class="fas fa-upload fa-shake"></i><div class="text">最后更新</div></div><div class="item-count" id="last-push-date" data-lastPushDate="2023-04-03T14:25:09.770Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div><div class="button-group"><div class="console-btn-item"> <a class="darkmode_switchbutton" onclick="toRandomPost()" title="随机文章"><i class="fas fa-shuffle" style="font-size: 1rem;"></i></a></div><div class="console-btn-item" id="assist-open" href="https://travellings.cn/go.html" title="友链接力"><a class="assist-btn"><i class="fas fa-bus"></i></a></div></div><div class="console-mask"></div></div><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="hometoptext3"><i class="fas fa-hand shake-hand-icon"></i><div class="text"></div><a class="randompostbtn" onclick="toRandomPost()" title="随机文章"> <i class="fas fa-shuffle"> </i>随机文章</a><div class="skills-style-group"><div class="tags-group-all"><div class="tags-group-wrapper"><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #b8f0ae"><img class="no-lightbox" title="Vue" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633001374747b.png"></div><div class="tags-group-icon" style="background: #222"><img class="no-lightbox" title="React" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #57b6e6"><img class="no-lightbox" title="Docker" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/63300647df7fa.png"></div><div class="tags-group-icon" style="background: #4082c3"><img class="no-lightbox" title="Photoshop" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/63300647e1f10.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #333"><img class="no-lightbox" title="Node" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/svg/node-logo.svg"></div><div class="tags-group-icon" style="background: #2e3a41"><img class="no-lightbox" title="Webpack" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/26/6330ff27e5c9b.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #fff"><img class="no-lightbox" title="Python" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/63300647dea51.png"></div><div class="tags-group-icon" style="background: #937df7"><img class="no-lightbox" title="Vite" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/vite-logo.svg"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #4499e4"><img class="no-lightbox" title="Flutter" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633004063ff15.png"></div><div class="tags-group-icon" style="background: #fff"><img class="no-lightbox" title="Java" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633005bf0fd1e.jpg"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #2c51db"><img class="no-lightbox" title="CSS3" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006cc55e07.png"></div><div class="tags-group-icon" style="background: #f7cb4f"><img class="no-lightbox" title="JS" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006eee047b.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #e9572b"><img class="no-lightbox" title="HTML" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006f9ab27d.png"></div><div class="tags-group-icon" style="background: #df5b40"><img class="no-lightbox" title="Git" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006e37c7fd.webp"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #e65164"><img class="no-lightbox" title="Apifox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633007087a4dc.webp"></div><div class="tags-group-icon" style="background: #b8f0ae"><img class="no-lightbox" title="Vue" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633001374747b.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #222"><img class="no-lightbox" title="React" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"></div><div class="tags-group-icon" style="background: #57b6e6"><img class="no-lightbox" title="Docker" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/63300647df7fa.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #4082c3"><img class="no-lightbox" title="Photoshop" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/63300647e1f10.png"></div><div class="tags-group-icon" style="background: #333"><img class="no-lightbox" title="Node" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/svg/node-logo.svg"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #2e3a41"><img class="no-lightbox" title="Webpack" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/26/6330ff27e5c9b.png"></div><div class="tags-group-icon" style="background: #fff"><img class="no-lightbox" title="Python" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/63300647dea51.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #937df7"><img class="no-lightbox" title="Vite" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/vite-logo.svg"></div><div class="tags-group-icon" style="background: #4499e4"><img class="no-lightbox" title="Flutter" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633004063ff15.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #fff"><img class="no-lightbox" title="Java" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633005bf0fd1e.jpg"></div><div class="tags-group-icon" style="background: #2c51db"><img class="no-lightbox" title="CSS3" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006cc55e07.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #f7cb4f"><img class="no-lightbox" title="JS" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006eee047b.png"></div><div class="tags-group-icon" style="background: #e9572b"><img class="no-lightbox" title="HTML" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006f9ab27d.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #df5b40"><img class="no-lightbox" title="Git" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006e37c7fd.webp"></div><div class="tags-group-icon" style="background: #e65164"><img class="no-lightbox" title="Apifox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633007087a4dc.webp"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #b8f0ae"><img class="no-lightbox" title="Vue" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633001374747b.png"></div><div class="tags-group-icon" style="background: #222"><img class="no-lightbox" title="React" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #57b6e6"><img class="no-lightbox" title="Docker" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/63300647df7fa.png"></div><div class="tags-group-icon" style="background: #4082c3"><img class="no-lightbox" title="Photoshop" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/63300647e1f10.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #333"><img class="no-lightbox" title="Node" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/svg/node-logo.svg"></div><div class="tags-group-icon" style="background: #2e3a41"><img class="no-lightbox" title="Webpack" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/26/6330ff27e5c9b.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #fff"><img class="no-lightbox" title="Python" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/63300647dea51.png"></div><div class="tags-group-icon" style="background: #937df7"><img class="no-lightbox" title="Vite" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/vite-logo.svg"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #4499e4"><img class="no-lightbox" title="Flutter" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633004063ff15.png"></div><div class="tags-group-icon" style="background: #fff"><img class="no-lightbox" title="Java" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633005bf0fd1e.jpg"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #2c51db"><img class="no-lightbox" title="CSS3" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006cc55e07.png"></div><div class="tags-group-icon" style="background: #f7cb4f"><img class="no-lightbox" title="JS" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006eee047b.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #e9572b"><img class="no-lightbox" title="HTML" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006f9ab27d.png"></div><div class="tags-group-icon" style="background: #df5b40"><img class="no-lightbox" title="Git" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006e37c7fd.webp"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #e65164"><img class="no-lightbox" title="Apifox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633007087a4dc.webp"></div><div class="tags-group-icon" style="background: #b8f0ae"><img class="no-lightbox" title="Vue" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633001374747b.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #222"><img class="no-lightbox" title="React" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"></div><div class="tags-group-icon" style="background: #57b6e6"><img class="no-lightbox" title="Docker" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/63300647df7fa.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #4082c3"><img class="no-lightbox" title="Photoshop" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/63300647e1f10.png"></div><div class="tags-group-icon" style="background: #333"><img class="no-lightbox" title="Node" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/svg/node-logo.svg"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #2e3a41"><img class="no-lightbox" title="Webpack" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/26/6330ff27e5c9b.png"></div><div class="tags-group-icon" style="background: #fff"><img class="no-lightbox" title="Python" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/63300647dea51.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #937df7"><img class="no-lightbox" title="Vite" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/vite-logo.svg"></div><div class="tags-group-icon" style="background: #4499e4"><img class="no-lightbox" title="Flutter" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633004063ff15.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #fff"><img class="no-lightbox" title="Java" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633005bf0fd1e.jpg"></div><div class="tags-group-icon" style="background: #2c51db"><img class="no-lightbox" title="CSS3" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006cc55e07.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #f7cb4f"><img class="no-lightbox" title="JS" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006eee047b.png"></div><div class="tags-group-icon" style="background: #e9572b"><img class="no-lightbox" title="HTML" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006f9ab27d.png"></div></div><div class="tags-group-icon-pair"><div class="tags-group-icon" style="background: #df5b40"><img class="no-lightbox" title="Git" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006e37c7fd.webp"></div><div class="tags-group-icon" style="background: #e65164"><img class="no-lightbox" title="Apifox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633007087a4dc.webp"></div></div></div></div></div></div><div class="hometoptext"><div class="text"> <i class="fas fa-star icon"></i>站长推荐</div><div id="home_top"><div class="recent-top-post-group" id="recent-top-post-group"><div class="recent-post-top" id="recent-post-top"><div class="topGroup" id="topGroup"><div class="recent-post-item" id="recent-post-item"><div class="post_cover left_radius"><a href="/2023/dimension" title="hexo主题dimension"><span class="recent-post-top-text"><i class="fas fa-fire">推荐</i></span><img class="post_bg entered loaded" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.imgdb.cn/item/64061c93f144a01007f083cb.jpg" onerror="this.onerror=null,this.src='/img/404.png'"></a></div><div class="recent-post-info" onclick="pjax.loadUrl(&quot;/2023/dimension&quot;)"><a class="article-title" href="/2023/dimension" title="hexo主题dimension">hexo主题dimension</a></div></div><div class="recent-post-item" id="recent-post-item"><div class="post_cover left_radius"><a href="/2023/46680" title="【原创】cbx-home开源首页"><span class="recent-post-top-text"><i class="fas fa-fire">推荐</i></span><img class="post_bg entered loaded" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/posts/home.png" onerror="this.onerror=null,this.src='/img/404.png'"></a></div><div class="recent-post-info" onclick="pjax.loadUrl(&quot;/2023/46680&quot;)"><a class="article-title" href="/2023/46680" title="【原创】cbx-home开源首页">【原创】cbx-home开源首页</a></div></div><div class="recent-post-item" id="recent-post-item"><div class="post_cover left_radius"><a href="/2022/da0f" title="百度网盘直连下载"><span class="recent-post-top-text"><i class="fas fa-fire">推荐</i></span><img class="post_bg entered loaded" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.imgdb.cn/item/64039f55f144a010077911cd.jpg" onerror="this.onerror=null,this.src='/img/404.png'"></a></div><div class="recent-post-info" onclick="pjax.loadUrl(&quot;/2022/da0f&quot;)"><a class="article-title" href="/2022/da0f" title="百度网盘直连下载">百度网盘直连下载</a></div></div><div class="recent-post-item" id="recent-post-item"><div class="post_cover left_radius"><a href="/2023/5781" title="一篇文章教你搞定butterfly主题洪化"><span class="recent-post-top-text"><i class="fas fa-fire">推荐</i></span><img class="post_bg entered loaded" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.imgdb.cn/item/64039fd0f144a01007796d4a.jpg" onerror="this.onerror=null,this.src='/img/404.png'"></a></div><div class="recent-post-info" onclick="pjax.loadUrl(&quot;/2023/5781&quot;)"><a class="article-title" href="/2023/5781" title="一篇文章教你搞定butterfly主题洪化">一篇文章教你搞定butterfly主题洪化</a></div></div><div class="recent-post-item" id="recent-post-item"><div class="post_cover left_radius"><a href="/2022/65320" title="markdown-it食用教程"><span class="recent-post-top-text"><i class="fas fa-fire">推荐</i></span><img class="post_bg entered loaded" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.imgdb.cn/item/64039fd0f144a01007796dce.jpg" onerror="this.onerror=null,this.src='/img/404.png'"></a></div><div class="recent-post-info" onclick="pjax.loadUrl(&quot;/2022/65320&quot;)"><a class="article-title" href="/2022/65320" title="markdown-it食用教程">markdown-it食用教程</a></div></div><div class="recent-post-item" id="recent-post-item"><div class="post_cover left_radius"><a href="/2023/34037" title="自定义美化你的windows桌面！"><span class="recent-post-top-text"><i class="fas fa-fire">推荐</i></span><img class="post_bg entered loaded" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.imgdb.cn/item/6403a054f144a0100779cd5d.jpg" onerror="this.onerror=null,this.src='/img/404.png'"></a></div><div class="recent-post-info" onclick="pjax.loadUrl(&quot;/2023/34037&quot;)"><a class="article-title" href="/2023/34037" title="自定义美化你的windows桌面！">自定义美化你的windows桌面！</a></div></div></div></div></div></div></div><div class="hometoptext"><div class="text"> <i class="fas fa-tags icon"></i>分类标签</div><div id="tag-bar"><div class="tag-bar-items" id="tag-bar-items"><div class="tag-bar-item" id="首页"><a href="/">首页</a></div>
+      <div class="category-bar-item" id="hexo">
+      <a href="/tags/hexo/">hexo</a>
+      </div>
+      <div class="category-bar-item" id="butterfly">
+      <a href="/tags/butterfly/">butterfly</a>
+      </div>
+      <div class="category-bar-item" id="教程">
+      <a href="/tags/教程/">教程</a>
+      </div>
+      <div class="category-bar-item" id="魔改">
+      <a href="/tags/魔改/">魔改</a>
+      </div>
+      <div class="category-bar-item" id="Ecx-UI">
+      <a href="/tags/Ecx-UI/">Ecx-UI</a>
+      </div>
+      <div class="category-bar-item" id="碎碎念">
+      <a href="/tags/碎碎念/">碎碎念</a>
+      </div>
+      <div class="category-bar-item" id="前端">
+      <a href="/tags/前端/">前端</a>
+      </div>
+      <div class="category-bar-item" id="linux">
+      <a href="/tags/linux/">linux</a>
+      </div>
+      <div class="category-bar-item" id="windows">
+      <a href="/tags/windows/">windows</a>
+      </div>
+      <div class="category-bar-item" id="优化">
+      <a href="/tags/优化/">优化</a>
+      </div>
+      <div class="category-bar-item" id="FAQ">
+      <a href="/tags/FAQ/">FAQ</a>
+      </div>
+      <div class="category-bar-item" id="域名">
+      <a href="/tags/域名/">域名</a>
+      </div>
+      <div class="category-bar-item" id="生活">
+      <a href="/tags/生活/">生活</a>
+      </div></div><a class="tag-bar-more" href="/tags/">更多标签</a></div><div id="category-bar"><div class="category-bar-items" id="category-bar-items"><div class="category-bar-item" id="首页"><a href="/">首页</a></div>
+      <div class="category-bar-item" id="杂谈教程">
+      <a href="/categories/杂谈教程/">杂谈教程</a>
+      </div>
+      <div class="category-bar-item" id="ui魔改">
+      <a href="/categories/ui魔改/">ui魔改</a>
+      </div>
+      <div class="category-bar-item" id="dimension">
+      <a href="/categories/dimension/">dimension</a>
+      </div>
+      <div class="category-bar-item" id="博客优化">
+      <a href="/categories/博客优化/">博客优化</a>
+      </div>
+      <div class="category-bar-item" id="博客教程">
+      <a href="/categories/博客教程/">博客教程</a>
+      </div>
+      <div class="category-bar-item" id="css">
+      <a href="/categories/css/">css</a>
+      </div>
+      <div class="category-bar-item" id="碎碎念">
+      <a href="/categories/碎碎念/">碎碎念</a>
+      </div>
+      <div class="category-bar-item" id="生活记录">
+      <a href="/categories/生活记录/">生活记录</a>
+      </div></div><a class="category-bar-more" href="/categories/">更多分类</a></div></div><div class="hometoptext2"><div class="text"> <i class="fas fa-book icon"></i>全部文章</div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/12/16/winterminalmh/" title="windows-terminal美化"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.imgdb.cn/item/64039fd0f144a01007796d21.png" onerror="this.onerror=null;this.src='https://ezgx.site/img/404.png'" alt="windows-terminal美化"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/12/16/winterminalmh/" title="windows-terminal美化">windows-terminal美化</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-12-16T07:33:30.000Z" title="Created 2022-12-16 15:33:30">2022-12-16</time></span></div><div class="content">众所周知，++Windows++的==cmd==和==powershell==都 灰 常 的 丑
+
+
+所以，今天教大家美化Windows-terminal
+这里我按照akilar大佬的教程做的，出现了一些报错，这里是我避免报错的过程先去==Microsoft store==安装==Windows terminal==，:::warning
+注意一定要那个preview版本:::danger普通的不行！！！:::
+去==Microsoft store==安装==oh-my-posh==（这里我按照akila的教程运行命令安装oh-my-posh，报错了，就去==msstore==安装的
+打开一个==管理员权限的==++powershell++运行
+1New-Item -Path $PROFILE -Type File -Force
+1notepad $PROFILE
+
+赞后在打开的配置文件中输入:::tips&amp; ([ScriptBlock]::Create((oh-my-posh init pwsh –config C:\Users\你的用户名\AppData\Local\Pro ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/12/15/obsvcam/" title="使用obs虚拟摄像机上网课/开会"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.imgdb.cn/item/64039f55f144a0100779117b.png" onerror="this.onerror=null;this.src='https://ezgx.site/img/404.png'" alt="使用obs虚拟摄像机上网课/开会"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/12/15/obsvcam/" title="使用obs虚拟摄像机上网课/开会">使用obs虚拟摄像机上网课/开会</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-12-15T07:33:30.000Z" title="Created 2022-12-15 15:33:30">2022-12-15</time></span></div><div class="content">:::tips
+请准备
+
+1.obs2.电脑3.手4.确保你是个正常人:::
+开始录制视频：打开obs然后按照图中步骤操作，新建一个场景
+创建好之后，按照图中步骤操作
+开始录制
+在虚拟摄像头放视频:::warning录制好之后，==确认如下路径能找到刚刚录制的视频==:::
+按照图中步骤依次点击：:::success
++加号 &gt; 媒体源 &gt; 浏览 &gt; 想要放的视频 &gt; 打开:::danger
+记得勾选上循环！！::::::
+使用虚拟摄像头点击“启动虚拟摄像机”这里以腾讯会议为例，在这里选择 “obs virtual camera”
+:::success
+如果一切正常，那么恭喜你，你成功啦！:::
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/12/14/hexoblog3/" title="hexo博客搭建-3-主题&amp;页面配置"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.imgdb.cn/item/64039f55f144a010077911ee.jpg" onerror="this.onerror=null;this.src='https://ezgx.site/img/404.png'" alt="hexo博客搭建-3-主题&amp;页面配置"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/12/14/hexoblog3/" title="hexo博客搭建-3-主题&amp;页面配置">hexo博客搭建-3-主题&amp;页面配置</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-12-14T07:51:30.000Z" title="Created 2022-12-14 15:51:30">2022-12-14</time></span></div><div class="content">::: danger
+这期开始页面配置:::
+
+
+
+全局配置在博客根目录==config.yml==中
+123456789找到这些，然后修改# Sitetitle: 标题subtitle: 副标题description: &#x27;介绍&#x27;keywords: 关键词author: 作者名字language: zh-CNtimezone: &#x27;&#x27;
+主题配置接下来修改==config.butterfly.yml==
+导航栏1234567891011121314menu:  首页: / || # fas fa-home  文章||:    归档: /archives/ || # fas fa-archive    标签: /tags/ || # fas fa-tags    分类: /categories/ || # fas fa-folder-open  # List||fas fa-list:    # Music: /music/ || fas fa-music    # Movie: /movies/ || fas fa-video  开往||:    友 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/12/14/hexoblog2/" title="hexo博客搭建-2-页面完善"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.imgdb.cn/item/6403a054f144a0100779cd5d.jpg" onerror="this.onerror=null;this.src='https://ezgx.site/img/404.png'" alt="hexo博客搭建-2-页面完善"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/12/14/hexoblog2/" title="hexo博客搭建-2-页面完善">hexo博客搭建-2-页面完善</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-12-14T07:21:10.000Z" title="Created 2022-12-14 15:21:10">2022-12-14</time></span></div><div class="content">::: danger
+还算简单…:::
+
+
+继上期，主题已经配置完毕文章页Front-matter++Front-matter++ 是markdown文件最上方以 — 分隔的区域
+12345title：页面标题date：日期tags：标签categories：分类top_img：封面（可选
+
+==创建关于页==
+1hexo new page about
+找到source/about/index.md
+123456---+ layout: abouttitle: 关于date: 2022-09-12 16:17:05tags:---
+
+==创建分类页==
+1hexo new page categories
+找到source/categories/index.md
+123456---+ layout: categoriestitle: 分类date: 2022-09-12 16:17:05tags:---
+
+==创建标签页==
+1hexo new page tags
+找到source/categories/index.md操作同上
+::: successwell done!You did  ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/12/12/markdown-it_test/" title="markdown-it语法"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.imgdb.cn/item/64039fd0f144a01007796d21.png" onerror="this.onerror=null;this.src='https://ezgx.site/img/404.png'" alt="markdown-it语法"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/12/12/markdown-it_test/" title="markdown-it语法">markdown-it语法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-12-12T09:35:36.000Z" title="Created 2022-12-12 17:35:36">2022-12-12</time></span></div><div class="content">
+
++++ 点击折叠这是被隐藏的内容+++
+123+++ **点击折叠**这是被隐藏的内容+++
+
+::: tips提示这是一个提示:::
+::: warning注意这是一个警告:::
+::: danger警告这是一个危险信号:::
+::: success成功这是一个成功信号:::
+12345678910111213141516171819::: tips**提示**这是一个提示:::::: warning**注意**这是一个警告:::::: danger**警告**这是一个危险信号:::::: success**成功**这是一个成功信号:::
+
+==标记==
+:) :(
+++下划线++
+H2O
+X^2^
+123456789==标记==:) :(++下划线++H~2~OX^2^
+
+
+ Markdown  
+ JavaScript 
+
+
+
+
+Syntax
+Description
+
+
+
+Header
+Title
+
+
+Paragraph
+Text
+
+
+aaa
+123456789- [x] Markdown  - [ ] JavaScript | Syntax | Description || ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/12/12/markdown-it%E9%A3%9F%E7%94%A8%E6%95%99%E7%A8%8B/" title="markdown-it食用教程"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.imgdb.cn/item/64039fd0f144a01007796d21.png" onerror="this.onerror=null;this.src='https://ezgx.site/img/404.png'" alt="markdown-it食用教程"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/12/12/markdown-it%E9%A3%9F%E7%94%A8%E6%95%99%E7%A8%8B/" title="markdown-it食用教程">markdown-it食用教程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-12-12T09:35:36.000Z" title="Created 2022-12-12 17:35:36">2022-12-12</time></span></div><div class="content">给hexo食用更高级的渲染器：markdown-it++先卸载++==默认的渲染器==
+
+
+1npm un hexo-renderer-marked --save
+然后安装markdown-it
+
+1npm i hexo-renderer-markdown-it --save
+
+在==博客_config.yml==中写入
+123456789101112131415161718192021222324252627282930313233343536373839404142markdown:  preset: &quot;default&quot;  render:    html: true    xhtmlOut: false    langPrefix: &quot;language-&quot;    breaks: true    linkify: true    typographer: true    quotes: &quot;“”‘’&quot;  enable_rules:  disable_rules:  plugins:    - markdown-it-abbr  ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/12/10/%E6%9F%90%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD/" title="百度网盘高速下载"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.imgdb.cn/item/6403a0b0f144a010077a1889.png" onerror="this.onerror=null;this.src='https://ezgx.site/img/404.png'" alt="百度网盘高速下载"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/12/10/%E6%9F%90%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD/" title="百度网盘高速下载">百度网盘高速下载</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-12-10T07:16:09.000Z" title="Created 2022-12-10 15:16:09">2022-12-10</time></span></div><div class="content">1-前言1.1-废话众所周知，某度网盘下载没有vip灰常慢
+
+
+而我下载的镜像，动不动就2-3GB几十kb每秒的下载速度::: danger卒下完了半截身子入土了（:::
+2-开始2.1-油猴所以今天推荐一个油猴插件首先安装好==tampermonkey==
+2.2-脚本前往==greasyfork==搜索脚本：++百度网盘++往下翻，找到百度网盘简易下载助手（直链下载复活版）点击“安装脚本”
+如果提示脚本友不受欢迎的功能，请不要在意，脚本纯净无病毒，请放心使用安装后去下载一个aria2
+1解压后双击运行ariaNG启动器，如果要管理员权限点击是！
+最后到百度网盘网页版
+注意一定要网页版勾选一个文件，只能一个，不能文件夹或者多个点击
+1获取直连地址
+然后会提示你到微信关zhu弓重号：软件小妹（此处并非打广告，因为真的需要）对弓重号发送“验证码”获取到浏览器输入到验证码框，再点击“获取直连地址”获取成功点击发送到aria2这玩意能拉满带宽！
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/10/03/hexoblog1/" title="hexo博客搭建-1-快速开始&amp;安装主题"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.imgdb.cn/item/6403a054f144a0100779cd83.jpg" onerror="this.onerror=null;this.src='https://ezgx.site/img/404.png'" alt="hexo博客搭建-1-快速开始&amp;安装主题"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/10/03/hexoblog1/" title="hexo博客搭建-1-快速开始&amp;安装主题">hexo博客搭建-1-快速开始&amp;安装主题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-10-03T07:20:36.000Z" title="Created 2022-10-03 15:20:36">2022-10-03</time></span></div><div class="content">准备工作&amp;添加主题
+
+npm和nodejs安装跳转官网下载
+下载好后打开cmd运行
+12npm -vnode -v
+查看版本
+cmd运行
+12npm install hexo-cli -g# 安装hexo
+安装hexo成功安装Hexo后，运行下面的命令，会在指定文件夹中新建必须的文件。
+123hexo init 文件夹名cd 文件夹名npm install
+成功后，文件夹下应包含
+1234567_config.ymlpackage.jsonscaffoldssource├── _drafts└── _poststhemes
+安装butterfly主题在刚新建的文件夹下打开cmd执行
+1git clone https://gitee.com/immyw/hexo-theme-butterfly themes/butterfly
+启用主题在_config.yml中将::: warning_config.ymltheme: landscape:::改为::: tips_config.ymltheme: butterfly:::
+配置在hexo根目录下新建_config.butterf ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/08/27/aXsUd5m9Ca/" title="虚拟机安装kali"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.imgdb.cn/item/64039fd1f144a01007796e24.jpg" onerror="this.onerror=null;this.src='https://ezgx.site/img/404.png'" alt="虚拟机安装kali"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/08/27/aXsUd5m9Ca/" title="虚拟机安装kali">虚拟机安装kali</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-08-26T16:08:28.000Z" title="Created 2022-08-27 00:08:28">2022-08-27</time></span></div><div class="content">kali linuxKali 的优势和特性：
+
+
+
+包括 900 多种渗透测试工具。
+免费：完全免费且永远都是。你将永远不必支付 Kali Linux 的费用。
+开源：所有进入 Kali Linux 的源代码都可供任何人使用。
+广泛的无线设备支持：我们已经构建了 Kali Linux 以支持尽可能多的无线设备，允许它在各种硬 件上正常运行，并使其与众多 USB 和其他无线设备兼容。
+在安全的环境中开发：Kali Linux 团队由一小部分人组成，他们是唯一可信任的提交包并与存 储库交互的人，所有这些都是使用多个安全协议完成的。
+GPG 签名包和存储库：Kali Linux 中的每个包都由构建和提交它的每个开发人员签名，并且 存储库随后也会对包签名。
+ARMEL 和 ARMHF 支持：Kali Linux 可用于各种 ARM 设备。
+
+安装教程1.到官网下载&amp;安装VMwarehttps://www.vmware.com/cn/get-started.html
+
+2.安装后去清华开源镜像站下载系统镜像这里直接把链接挂在下边https://mirrors.tuna.tsinghua. ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/08/26/KFZVRjMH0/" title="OBS Studio录制卡顿怎么解决？"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.imgdb.cn/item/64039fd0f144a01007796d97.png" onerror="this.onerror=null;this.src='https://ezgx.site/img/404.png'" alt="OBS Studio录制卡顿怎么解决？"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/08/26/KFZVRjMH0/" title="OBS Studio录制卡顿怎么解决？">OBS Studio录制卡顿怎么解决？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-08-26T07:11:38.000Z" title="Created 2022-08-26 15:11:38">2022-08-26</time></span></div><div class="content">OBS Studio录制卡顿的解决方法
+
+1、启动OBS Studio软件，进入界面，在上方菜单栏中点击【文件】——【设置】选项。
+2、打开设置面板，如图，在左侧栏点击【视频】选项，在右侧显示视频参数设置，包括基础分辨率、输出分辨率。
+3、【基础分辨率】是高清视频分辨率，如果你的电脑显示器达不到最佳分辨率，点击【输出分辨率】，在下拉选项中自行调整分辨率。
+4、点击【缩小方法】，进行调整，如果电脑配置较低，选择【两个立方（削尖缩放，16个样本）】。
+5、点击【常用FPS值】选项，展开下拉框，这里有【常用FPS值】、【整数FPS值】、【分数帧率值】三个选项，大家自行选择设置。
+6、最高FFS值是60，如果电脑配置低，你可以选择小数值的FFS值，我电脑配置一般，这里选择30，设置完成，最后点击确定。
+</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/3/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/#content-inner">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/#content-inner">5</a><a class="extend next" rel="next" href="/page/5/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div></main><footer id="footer" style="background: transparent"><div id="footer_deal"><img class="footer_mini_logo entered loading" style="border-radius:50%" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/avatar.png" onclick="btf.scrollToDest(0,500)" title="返回顶部"/></div><div id="Jay-footer"><div class="footer-group"><h3 class="footer-title">直达</h3><div class="footer-links"><a class="footer-item" target="_blank" rel="noopener" href="https://home.ezgx.site">个人主页</a><a class="footer-item" href="/about/">关于</a><a class="footer-item" href="/link/">友链</a><a class="footer-item" href="javascript:toRandomPost()">随机文章</a></div></div><div class="footer-group"><h3 class="footer-title">标签</h3><div class="footer-links"><a class="footer-item" href="/tags/%E6%95%99%E7%A8%8B/">📚教程</a><a class="footer-item" href="/categories/butterfly/">🦋魔改教程</a><a class="footer-item" href="/categories/%E5%89%8D%E7%AB%AF/">🌈捣鼓前端</a><a class="footer-item" href="/categories/%E7%94%9F%E6%B4%BB/">📙生活记录</a></div></div><div class="footer-group"><h3 class="footer-title">我的</h3><div class="footer-links"><a class="footer-item" href="/about/">关于</a><a class="footer-item" href="/archives/">归档</a><a class="footer-item" href="/tags/">标签</a><a class="footer-item" href="/categories/">分类</a></div></div><div class="footer-group"><h3 class="footer-title">协议</h3><div class="footer-links"><a class="footer-item" href="/cc/">版权协议</a><a class="footer-item" target="_blank" rel="noopener" href="https://github.com/Ezgx/hexo-theme-dimension/blob/main/LICENSE">主题协议</a><a class="footer-item" href="javascript:void(0)">占位</a><a class="footer-item" href="javascript:void(0)">占位</a></div></div></div><div id="footer-banner"><div class="footer-banner-links"><div class="footer-banner-left"><div class="footer-banner-left"><div id="footer-banner-tips">2023 ©Echocbx</div></div></div><div class="footer-banner-right"><a class="footer-banner-link" target="_blank" rel="noopener" href="https://hexo.io/zh-cn/" title="Hexo">框架：Hexo</a><a class="footer-banner-link">|</a><a class="footer-banner-link" href="/2023/dimension" title="theme">主题：dimension</a><a class="footer-banner-link">|</a><a class="footer-banner-link" href="/about/" title="about">关于</a><a class="footer-banner-link">|</a><a class="footer-banner-link cc" href="/cc/" title="cc协议"><i class="fab fa-creative-commons"></i><span>协议。</span></a></div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="/pluginsSrc/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="/pluginsSrc/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function subtitleType () {
+  if (true) { 
+    window.typed = new Typed("#subtitle", {
+      strings: ["彼方为谁，无我有问，九月露湿，待君之前。","花无凋零之日，意无传递之时。","我已经准备好了足够挡雨的伞，雨却没有到来。","终是庄周梦了蝶，你是恩赐也是劫。"],
+      startDelay: 10,
+      typeSpeed: 80,
+      loop: true,
+      backSpeed: 70
+    })
+  } else {
+    document.getElementById("subtitle").innerHTML = '彼方为谁，无我有问，九月露湿，待君之前。'
+  }
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('/pluginsSrc/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}</script></div><script src="/pluginsSrc/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-show-text" src="/pluginsSrc/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="true" data-text="欢迎来到,Echocbx的,博客" data-fontsize="16px" data-random="false" async="async"></script><script src="/pluginsSrc/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["link[rel=\"canonical\"]","meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"]):not([href="hometop.js"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script></div><span id="fps"></span></body></html>
