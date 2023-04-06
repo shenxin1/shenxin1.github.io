@@ -3,10 +3,10 @@ var OriginTitile = document.title;    // 保存之前页面标题
 var titleTime;
 document.addEventListener('visibilitychange', function(){
     if (document.hidden){
-        document.title = '404 Not Found';
+        document.title = '找不到页面';
         clearTimeout(titleTime);
     }else{
-        document.title = '上当了吧哈哈！';
+        document.title = '又回来啦';
         titleTime = setTimeout(function() {
             document.title = OriginTitile;
         }, 3000); // 3秒后恢复原标题
