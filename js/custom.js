@@ -3,10 +3,10 @@ var OriginTitile = document.title;    // 保存之前页面标题
 var titleTime;
 document.addEventListener('visibilitychange', function(){
     if (document.hidden){
-        document.title = '找不到页面';
+        document.title = 'O_O';
         clearTimeout(titleTime);
     }else{
-        document.title = '又回来啦';
+        document.title = '欢迎回来';
         titleTime = setTimeout(function() {
             document.title = OriginTitile;
         }, 3000); // 3秒后恢复原标题
@@ -698,3 +698,4 @@ var heo = {
   $('#menu-downloadimg').on('click',function(){heo.downloadImage(domImgSrc,'zhheo');});
   $('#menu-copyimg').on('click',function(){rm.writeClipImg(domImgSrc);});
   $('#menu-searchBaidu').on('click',rm.searchBaidu);
+

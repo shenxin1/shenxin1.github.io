@@ -1,0 +1,58 @@
+#veditor {
+    background-image: url(../img/f636c188320336c248713475d1ef566f.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgba(255, 255, 255, 0);
+    resize: vertical
+}
+
+
+
+
+/* ȫ��Ĭ�����ָ�� */
+body,
+html {
+    cursor: url('./mouse/alternate.cur'), auto !important;
+}
+
+/* ��ͣͼƬʱ�����ָ�� */
+img {
+
+    cursor: url('./mouse/move.cur'), auto !important;
+}
+
+/* ѡ�����ӱ�ǩʱ�����ָ�� */
+a:hover {
+    cursor: url('./mouse/Location Select.cur'), auto;
+}
+
+/* ѡ�������ʱ�����ָ�� */
+input:hover {
+    cursor: url('./mouse/text.cur'), auto;
+}
+
+/* ��ͣ��ťʱ�����ָ�� */
+button:hover {
+    cursor: url('./mouse/unavailable.cur'), auto;
+}
+
+/* ��ͣ�б���ǩʱ�����ָ�� */
+i:hover {
+    cursor: url('./mouse/Location Select.cur'), auto;
+}
+
+/* ��ͣҳ�����ӱ�ǩ������ҳ�Żձ꣩ʱ�����ָ�� */
+#footer-wrap a:hover {
+    cursor: url('./mouse/Location Select.cur'), auto;
+}
+
+/* ��ͣҳ��ʱ�����ָ�� */
+#pagination .page-number:hover {
+    cursor: url('./mouse/Person Select.cur'), auto;
+}
+
+/* ��ͣ�˵���ʱ�����ָ�� */
+#nav .site-page:hover {
+    cursor: url('./mouse/Person Select.cur'), auto;
+}
