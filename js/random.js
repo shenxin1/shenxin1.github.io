@@ -1,1 +1,1 @@
-var posts=["2023/04/05/CSS学习/","2023/04/05/HTML学习/","2023/04/05/README/","2023/04/08/数据通信笔记0/","2023/04/07/数据通信笔记1/","2023/04/12/数据通信笔记2/","2023/04/17/数据通信笔记3/"];function toRandomPost(){window.open('/'+posts[Math.floor(Math.random() * posts.length)],"_self");};
+var posts=["2023/04/05/CSS学习/","2023/04/05/README/","2023/04/08/数据通信笔记0/","2023/04/05/HTML学习/","2023/04/07/数据通信笔记1/","2023/04/12/数据通信笔记2/","2023/04/17/数据通信笔记3/"];function toRandomPost(){window.open('/'+posts[Math.floor(Math.random() * posts.length)],"_self");};
